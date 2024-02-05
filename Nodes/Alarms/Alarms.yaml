@@ -1,0 +1,101 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: ExclusiveLevelAlarm1
+  Id: g=83771a84f03745aaaa3e650268d23079
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=0e78bd5555bcdc827f0f01770bb6d56a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ad55183ccf0c96c959816cbbcb9cd87f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/CURING_PRESS/Int_Temp"
+      Children:
+      - Name: Mode
+        Id: g=0042962c55c70297516b5c58690d4482
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0570f6f7077ced7d51e934c0170b7225
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: HighLimit
+    Id: g=21184eddd9d6faffcda1e46cd7f27408
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 184.9
+  - Name: Message
+    Id: g=815c85e2b6f77519c79169b3c663bee1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"temp high limit"}
+- Name: DigitalAlarm1
+  Id: g=990d2d8627d21fc2bff7c79ff2c794dc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5a73f8b764b96f5977559b9ed654c4bf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=987145e3a019e546efb23a4f1fd78011
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ad7040f52c90b070ffa59097e83f8afd
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/dummy_alarm_timer/DN"
+      Children:
+      - Name: Mode
+        Id: g=95200bd98ee4308e97e26695ac58d06c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6bfecb1a0c698f34517fa2cfc25f0f69
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Enabled
+    Id: g=9178a2ece8e49a1d2ab6abb94af194e9
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Message
+    Id: g=dffff343d2b4ac64ba5706db55a512b9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"digital alarm on"}

@@ -1,0 +1,9 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: Controller_Tags/Controller_Tags.yaml
+- File: Program_Consuption/Program_Consuption.yaml
+- File: Program_Internal_Pressure_Simulation_Loop/Program_Internal_Pressure_Simulation_Loop.yaml
+- File: Program_Internal_Temperature_Simulation_Loop/Program_Internal_Temperature_Simulation_Loop.yaml
+- File: Program_Recipe_and_Batch_Program/Program_Recipe_and_Batch_Program.yaml
+- File: Program_SmartObjects_MainProgram/Program_SmartObjects_MainProgram.yaml

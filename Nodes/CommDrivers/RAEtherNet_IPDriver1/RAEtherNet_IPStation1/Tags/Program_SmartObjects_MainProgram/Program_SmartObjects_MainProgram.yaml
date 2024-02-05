@@ -1,0 +1,3614 @@
+Name: 'Program:SmartObjects_MainProgram'
+Type: FolderType
+Children:
+- Name: ProcessDataLogging
+  Type: raC_UDT_SO_Node
+  DataType: raC_UDT_SO_Node
+  Children:
+  - Name: _ParentID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging._ParentID"
+  - Name: _Time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging._Time"
+  - Name: Cfg_UpdateOnEvent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging.Cfg_UpdateOnEvent"
+  - Name: Cfg_UpdatePeriod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging.Cfg_UpdatePeriod"
+  - Name: Inf_ID01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging.Inf_ID01"
+  - Name: Inf_ID02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging.Inf_ID02"
+  - Name: Inf_Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging.Inf_Name"
+  - Name: Inp_EventTrigger
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging.Inp_EventTrigger"
+  - Name: Out_RegistryIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging.Out_RegistryIndex"
+  - Name: Sts_Updated
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProcessDataLogging.Sts_Updated"
+- Name: ProductRecord
+  Type: raC_UDT_SO_Node
+  DataType: raC_UDT_SO_Node
+  Children:
+  - Name: _ParentID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord._ParentID"
+  - Name: _Time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord._Time"
+  - Name: Cfg_UpdateOnEvent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord.Cfg_UpdateOnEvent"
+  - Name: Cfg_UpdatePeriod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord.Cfg_UpdatePeriod"
+  - Name: Inf_ID01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord.Inf_ID01"
+  - Name: Inf_ID02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord.Inf_ID02"
+  - Name: Inf_Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord.Inf_Name"
+  - Name: Inp_EventTrigger
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord.Inp_EventTrigger"
+  - Name: Out_RegistryIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord.Out_RegistryIndex"
+  - Name: Sts_Updated
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.ProductRecord.Sts_Updated"
+- Name: Consumption
+  Type: raC_UDT_SO_Node
+  DataType: raC_UDT_SO_Node
+  Children:
+  - Name: _ParentID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption._ParentID"
+  - Name: _Time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption._Time"
+  - Name: Cfg_UpdateOnEvent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption.Cfg_UpdateOnEvent"
+  - Name: Cfg_UpdatePeriod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption.Cfg_UpdatePeriod"
+  - Name: Inf_ID01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption.Inf_ID01"
+  - Name: Inf_ID02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption.Inf_ID02"
+  - Name: Inf_Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption.Inf_Name"
+  - Name: Inp_EventTrigger
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption.Inp_EventTrigger"
+  - Name: Out_RegistryIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption.Out_RegistryIndex"
+  - Name: Sts_Updated
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.Consumption.Sts_Updated"
+- Name: A1PressProcessData
+  Type: raC_UDT_SO_Node
+  DataType: raC_UDT_SO_Node
+  Children:
+  - Name: _ParentID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData._ParentID"
+  - Name: _Time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData._Time"
+  - Name: Cfg_UpdateOnEvent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData.Cfg_UpdateOnEvent"
+  - Name: Cfg_UpdatePeriod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData.Cfg_UpdatePeriod"
+  - Name: Inf_ID01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData.Inf_ID01"
+  - Name: Inf_ID02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData.Inf_ID02"
+  - Name: Inf_Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData.Inf_Name"
+  - Name: Inp_EventTrigger
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData.Inp_EventTrigger"
+  - Name: Out_RegistryIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData.Out_RegistryIndex"
+  - Name: Sts_Updated
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProcessData.Sts_Updated"
+- Name: IntTemp
+  Type: raC_Opr_SO_Real
+  DataType: raC_Opr_SO_Real
+  Children:
+  - Name: _BufferFull
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp._BufferFull"
+  - Name: _DeltaT
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp._DeltaT"
+  - Name: _OldValue
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp._OldValue"
+  - Name: _ParentID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp._ParentID"
+  - Name: _Scan
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp._Scan"
+  - Name: _TempReal01
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp._TempReal01"
+  - Name: _Time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp._Time"
+  - Name: _VQTIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp._VQTIndex"
+  - Name: Cfg_ChangeDeltaLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Cfg_ChangeDeltaLimit"
+  - Name: Cfg_UpdateOnChange
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Cfg_UpdateOnChange"
+  - Name: Cfg_UpdateOnEvent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Cfg_UpdateOnEvent"
+  - Name: Cfg_UpdatePeriod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Cfg_UpdatePeriod"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.EnableOut"
+  - Name: Inf_ID01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Inf_ID01"
+  - Name: Inf_ID02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Inf_ID02"
+  - Name: Inf_Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Inf_Name"
+  - Name: Inp_Data
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Inp_Data"
+  - Name: Inp_EventTrigger
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Inp_EventTrigger"
+  - Name: Inp_Quality
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Inp_Quality"
+  - Name: Out_RegistryIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Out_RegistryIndex"
+  - Name: Sts_Updated
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTemp.Sts_Updated"
+- Name: IntTempSP
+  Type: raC_Opr_SO_Real
+  DataType: raC_Opr_SO_Real
+  Children:
+  - Name: _BufferFull
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP._BufferFull"
+  - Name: _DeltaT
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP._DeltaT"
+  - Name: _OldValue
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP._OldValue"
+  - Name: _ParentID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP._ParentID"
+  - Name: _Scan
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP._Scan"
+  - Name: _TempReal01
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP._TempReal01"
+  - Name: _Time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP._Time"
+  - Name: _VQTIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP._VQTIndex"
+  - Name: Cfg_ChangeDeltaLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Cfg_ChangeDeltaLimit"
+  - Name: Cfg_UpdateOnChange
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Cfg_UpdateOnChange"
+  - Name: Cfg_UpdateOnEvent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Cfg_UpdateOnEvent"
+  - Name: Cfg_UpdatePeriod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Cfg_UpdatePeriod"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.EnableOut"
+  - Name: Inf_ID01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Inf_ID01"
+  - Name: Inf_ID02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Inf_ID02"
+  - Name: Inf_Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Inf_Name"
+  - Name: Inp_Data
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Inp_Data"
+  - Name: Inp_EventTrigger
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Inp_EventTrigger"
+  - Name: Inp_Quality
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Inp_Quality"
+  - Name: Out_RegistryIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Out_RegistryIndex"
+  - Name: Sts_Updated
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.IntTempSP.Sts_Updated"
+- Name: A1PressProductRecord
+  Type: raC_UDT_SO_Node
+  DataType: raC_UDT_SO_Node
+  Children:
+  - Name: _ParentID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord._ParentID"
+  - Name: _Time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord._Time"
+  - Name: Cfg_UpdateOnEvent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord.Cfg_UpdateOnEvent"
+  - Name: Cfg_UpdatePeriod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord.Cfg_UpdatePeriod"
+  - Name: Inf_ID01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord.Inf_ID01"
+  - Name: Inf_ID02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord.Inf_ID02"
+  - Name: Inf_Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord.Inf_Name"
+  - Name: Inp_EventTrigger
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord.Inp_EventTrigger"
+  - Name: Out_RegistryIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord.Out_RegistryIndex"
+  - Name: Sts_Updated
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1PressProductRecord.Sts_Updated"
+- Name: A1_ProductRecord
+  Type: Product_Record
+  DataType: Product_Record
+  Children:
+  - Name: CloseTime
+    Type: raC_Opr_SO_DINT
+    DataType: raC_Opr_SO_DINT
+    Children:
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime._DeltaT"
+    - Name: _OldValue
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime._OldValue"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime._ParentID"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime._Scan"
+    - Name: _TempDINT01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime._TempDINT01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime._VQTIndex"
+    - Name: Cfg_ChangeDeltaLimit
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Cfg_ChangeDeltaLimit"
+    - Name: Cfg_UpdateOnChange
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Cfg_UpdateOnChange"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Inf_Name"
+    - Name: Inp_Data
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Inp_Data"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CloseTime.Sts_Updated"
+  - Name: CureCount
+    Type: raC_Opr_SO_DINT
+    DataType: raC_Opr_SO_DINT
+    Children:
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount._DeltaT"
+    - Name: _OldValue
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount._OldValue"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount._ParentID"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount._Scan"
+    - Name: _TempDINT01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount._TempDINT01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount._VQTIndex"
+    - Name: Cfg_ChangeDeltaLimit
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Cfg_ChangeDeltaLimit"
+    - Name: Cfg_UpdateOnChange
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Cfg_UpdateOnChange"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Inf_Name"
+    - Name: Inp_Data
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Inp_Data"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.CureCount.Sts_Updated"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.EnableOut"
+  - Name: GreenTireType
+    Type: raC_Opr_SO_String
+    DataType: raC_Opr_SO_String
+    Children:
+    - Name: _ArrayIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._ArrayIndex"
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._DeltaT"
+    - Name: _HasChart
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._HasChart"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._ParentID"
+    - Name: _PushData
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._PushData"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._Scan"
+    - Name: _TempDINT01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._TempDINT01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType._VQTIndex"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.Inf_Name"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.GreenTireType.Sts_Updated"
+  - Name: InTempMIN
+    Type: raC_Opr_SO_Real
+    DataType: raC_Opr_SO_Real
+    Children:
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN._DeltaT"
+    - Name: _OldValue
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN._OldValue"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN._ParentID"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN._Scan"
+    - Name: _TempReal01
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN._TempReal01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN._VQTIndex"
+    - Name: Cfg_ChangeDeltaLimit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Cfg_ChangeDeltaLimit"
+    - Name: Cfg_UpdateOnChange
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Cfg_UpdateOnChange"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Inf_Name"
+    - Name: Inp_Data
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Inp_Data"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.InTempMIN.Sts_Updated"
+  - Name: IntPressMax
+    Type: raC_Opr_SO_Real
+    DataType: raC_Opr_SO_Real
+    Children:
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax._DeltaT"
+    - Name: _OldValue
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax._OldValue"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax._ParentID"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax._Scan"
+    - Name: _TempReal01
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax._TempReal01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax._VQTIndex"
+    - Name: Cfg_ChangeDeltaLimit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Cfg_ChangeDeltaLimit"
+    - Name: Cfg_UpdateOnChange
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Cfg_UpdateOnChange"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Inf_Name"
+    - Name: Inp_Data
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Inp_Data"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMax.Sts_Updated"
+  - Name: IntPressMIN
+    Type: raC_Opr_SO_Real
+    DataType: raC_Opr_SO_Real
+    Children:
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN._DeltaT"
+    - Name: _OldValue
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN._OldValue"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN._ParentID"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN._Scan"
+    - Name: _TempReal01
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN._TempReal01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN._VQTIndex"
+    - Name: Cfg_ChangeDeltaLimit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Cfg_ChangeDeltaLimit"
+    - Name: Cfg_UpdateOnChange
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Cfg_UpdateOnChange"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Inf_Name"
+    - Name: Inp_Data
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Inp_Data"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntPressMIN.Sts_Updated"
+  - Name: IntTempMax
+    Type: raC_Opr_SO_Real
+    DataType: raC_Opr_SO_Real
+    Children:
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax._DeltaT"
+    - Name: _OldValue
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax._OldValue"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax._ParentID"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax._Scan"
+    - Name: _TempReal01
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax._TempReal01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax._VQTIndex"
+    - Name: Cfg_ChangeDeltaLimit
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Cfg_ChangeDeltaLimit"
+    - Name: Cfg_UpdateOnChange
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Cfg_UpdateOnChange"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Inf_Name"
+    - Name: Inp_Data
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Inp_Data"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.IntTempMax.Sts_Updated"
+  - Name: OpenTime
+    Type: raC_Opr_SO_DINT
+    DataType: raC_Opr_SO_DINT
+    Children:
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime._DeltaT"
+    - Name: _OldValue
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime._OldValue"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime._ParentID"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime._Scan"
+    - Name: _TempDINT01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime._TempDINT01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime._VQTIndex"
+    - Name: Cfg_ChangeDeltaLimit
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Cfg_ChangeDeltaLimit"
+    - Name: Cfg_UpdateOnChange
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Cfg_UpdateOnChange"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Inf_Name"
+    - Name: Inp_Data
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Inp_Data"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.OpenTime.Sts_Updated"
+  - Name: PartCureCode
+    Type: raC_Opr_SO_String
+    DataType: raC_Opr_SO_String
+    Children:
+    - Name: _ArrayIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._ArrayIndex"
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._DeltaT"
+    - Name: _HasChart
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._HasChart"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._ParentID"
+    - Name: _PushData
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._PushData"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._Scan"
+    - Name: _TempDINT01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._TempDINT01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode._VQTIndex"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.Inf_Name"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.PartCureCode.Sts_Updated"
+  - Name: ProductSN
+    Type: raC_Opr_SO_String
+    DataType: raC_Opr_SO_String
+    Children:
+    - Name: _ArrayIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._ArrayIndex"
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._DeltaT"
+    - Name: _HasChart
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._HasChart"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._ParentID"
+    - Name: _PushData
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._PushData"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._Scan"
+    - Name: _TempDINT01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._TempDINT01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN._VQTIndex"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.Inf_Name"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.ProductSN.Sts_Updated"
+  - Name: raC_SO_Node
+    Type: raC_Opr_SO_Node
+    DataType: raC_Opr_SO_Node
+    Children:
+    - Name: _TempDINT01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.raC_SO_Node._TempDINT01"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.raC_SO_Node.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.raC_SO_Node.EnableOut"
+  - Name: StepTemps
+    Type: raC_Opr_SO_String
+    DataType: raC_Opr_SO_String
+    Children:
+    - Name: _ArrayIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._ArrayIndex"
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._DeltaT"
+    - Name: _HasChart
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._HasChart"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._ParentID"
+    - Name: _PushData
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._PushData"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._Scan"
+    - Name: _TempDINT01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._TempDINT01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps._VQTIndex"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.Inf_Name"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTemps.Sts_Updated"
+  - Name: StepTimes
+    Type: raC_Opr_SO_String
+    DataType: raC_Opr_SO_String
+    Children:
+    - Name: _ArrayIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._ArrayIndex"
+    - Name: _BufferFull
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._BufferFull"
+    - Name: _DeltaT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._DeltaT"
+    - Name: _HasChart
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._HasChart"
+    - Name: _ParentID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._ParentID"
+    - Name: _PushData
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._PushData"
+    - Name: _Scan
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._Scan"
+    - Name: _TempDINT01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._TempDINT01"
+    - Name: _Time
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._Time"
+    - Name: _VQTIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes._VQTIndex"
+    - Name: Cfg_UpdateOnEvent
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.Cfg_UpdateOnEvent"
+    - Name: Cfg_UpdatePeriod
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.Cfg_UpdatePeriod"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.EnableOut"
+    - Name: Inf_ID01
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.Inf_ID01"
+    - Name: Inf_ID02
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.Inf_ID02"
+    - Name: Inf_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.Inf_Name"
+    - Name: Inp_EventTrigger
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.Inp_EventTrigger"
+    - Name: Inp_Quality
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.Inp_Quality"
+    - Name: Out_RegistryIndex
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.Out_RegistryIndex"
+    - Name: Sts_Updated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:SmartObjects_MainProgram.A1_ProductRecord.StepTimes.Sts_Updated"
+- Name: A1EnergyDataLogging
+  Type: raC_UDT_SO_Node
+  DataType: raC_UDT_SO_Node
+  Children:
+  - Name: _ParentID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging._ParentID"
+  - Name: _Time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging._Time"
+  - Name: Cfg_UpdateOnEvent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging.Cfg_UpdateOnEvent"
+  - Name: Cfg_UpdatePeriod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging.Cfg_UpdatePeriod"
+  - Name: Inf_ID01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging.Inf_ID01"
+  - Name: Inf_ID02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging.Inf_ID02"
+  - Name: Inf_Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging.Inf_Name"
+  - Name: Inp_EventTrigger
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging.Inp_EventTrigger"
+  - Name: Out_RegistryIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging.Out_RegistryIndex"
+  - Name: Sts_Updated
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.A1EnergyDataLogging.Sts_Updated"
+- Name: RealPoweryDemand
+  Type: raC_Opr_SO_Real
+  DataType: raC_Opr_SO_Real
+  Children:
+  - Name: _BufferFull
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand._BufferFull"
+  - Name: _DeltaT
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand._DeltaT"
+  - Name: _OldValue
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand._OldValue"
+  - Name: _ParentID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand._ParentID"
+  - Name: _Scan
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand._Scan"
+  - Name: _TempReal01
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand._TempReal01"
+  - Name: _Time
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand._Time"
+  - Name: _VQTIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand._VQTIndex"
+  - Name: Cfg_ChangeDeltaLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Cfg_ChangeDeltaLimit"
+  - Name: Cfg_UpdateOnChange
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Cfg_UpdateOnChange"
+  - Name: Cfg_UpdateOnEvent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Cfg_UpdateOnEvent"
+  - Name: Cfg_UpdatePeriod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Cfg_UpdatePeriod"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.EnableOut"
+  - Name: Inf_ID01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Inf_ID01"
+  - Name: Inf_ID02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Inf_ID02"
+  - Name: Inf_Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Inf_Name"
+  - Name: Inp_Data
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Inp_Data"
+  - Name: Inp_EventTrigger
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Inp_EventTrigger"
+  - Name: Inp_Quality
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Inp_Quality"
+  - Name: Out_RegistryIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Out_RegistryIndex"
+  - Name: Sts_Updated
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SmartObjects_MainProgram.RealPoweryDemand.Sts_Updated"
+- Name: ONS_REC_READY
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SmartObjects_MainProgram.ONS_REC_READY"

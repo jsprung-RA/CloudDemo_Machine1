@@ -1,0 +1,2853 @@
+Name: 'Program:Internal_Temperature_Simulation_Loop'
+Type: FolderType
+Children:
+- Name: ATune1
+  Type: PIDE_AUTOTUNE
+  DataType: PIDE_AUTOTUNE
+  Children:
+  - Name: ATuneAcquired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.ATuneAcquired"
+  - Name: ATuneFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.ATuneFault"
+  - Name: AtuneStatus
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.AtuneStatus"
+  - Name: ATuneTimedOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.ATuneTimedOut"
+  - Name: CVChanged
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.CVChanged"
+  - Name: CVInitFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.CVInitFault"
+  - Name: CVLimitsFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.CVLimitsFault"
+  - Name: CVWindupFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.CVWindupFault"
+  - Name: DeadTime
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.DeadTime"
+  - Name: DGainTunedFast
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.DGainTunedFast"
+  - Name: DGainTunedMed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.DGainTunedMed"
+  - Name: DGainTunedSlow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.DGainTunedSlow"
+  - Name: EUSpanChanged
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.EUSpanChanged"
+  - Name: Gain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.Gain"
+  - Name: GainTooLarge
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.GainTooLarge"
+  - Name: GainTooSmall
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.GainTooSmall"
+  - Name: IGainTunedFast
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.IGainTunedFast"
+  - Name: IGainTunedMed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.IGainTunedMed"
+  - Name: IGainTunedSlow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.IGainTunedSlow"
+  - Name: LongDeadTime
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.LongDeadTime"
+  - Name: ModeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.ModeInv"
+  - Name: PGainTunedFast
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.PGainTunedFast"
+  - Name: PGainTunedMed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.PGainTunedMed"
+  - Name: PGainTunedSlow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.PGainTunedSlow"
+  - Name: ProcessType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.ProcessType"
+  - Name: PVChangeTooSmall
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.PVChangeTooSmall"
+  - Name: PVNotSettled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.PVNotSettled"
+  - Name: PVOutOfLimit
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.PVOutOfLimit"
+  - Name: PVTuneLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.PVTuneLimit"
+  - Name: ResponseSpeed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.ResponseSpeed"
+  - Name: StepSize
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.StepSize"
+  - Name: StepSizeTooSmall
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.StepSizeTooSmall"
+  - Name: StepSizeUsed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.StepSizeUsed"
+  - Name: StepSizeZero
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.StepSizeZero"
+  - Name: TestLength
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.TestLength"
+  - Name: TimeConstant
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.TimeConstant"
+  - Name: TunedGood
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.TunedGood"
+  - Name: TunedUncertain
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.TunedUncertain"
+  - Name: UsedProcessType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.ATune1.UsedProcessType"
+- Name: Auto_Mode_Req
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.Auto_Mode_Req"
+- Name: BNOT_01
+  Type: FBD_BOOLEAN_NOT
+  DataType: FBD_BOOLEAN_NOT
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.BNOT_01.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.BNOT_01.EnableOut"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.BNOT_01.In"
+  - Name: Out
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.BNOT_01.Out"
+- Name: DeadTimeArray
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [100]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.DeadTimeArray"
+- Name: DEDT_01
+  Type: DEADTIME
+  DataType: DEADTIME
+  Children:
+  - Name: Bias
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.Bias"
+  - Name: Deadtime
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.Deadtime"
+  - Name: DeadtimeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.DeadtimeInv"
+  - Name: DeltaT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.DeltaT"
+  - Name: DeltaTInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.DeltaTInv"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.EnableOut"
+  - Name: Gain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.Gain"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.In"
+  - Name: InFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.InFault"
+  - Name: InFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.InFaulted"
+  - Name: InstructFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.InstructFault"
+  - Name: Out
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.Out"
+  - Name: OversampleDT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.OversampleDT"
+  - Name: RTSMissed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.RTSMissed"
+  - Name: RTSTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.RTSTime"
+  - Name: RTSTimeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.RTSTimeInv"
+  - Name: RTSTimeStamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.RTSTimeStamp"
+  - Name: RTSTimeStampInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.RTSTimeStampInv"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.Status"
+  - Name: TimingMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.TimingMode"
+  - Name: TimingModeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_01.TimingModeInv"
+- Name: DEDT_02
+  Type: DEADTIME
+  DataType: DEADTIME
+  Children:
+  - Name: Bias
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.Bias"
+  - Name: Deadtime
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.Deadtime"
+  - Name: DeadtimeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.DeadtimeInv"
+  - Name: DeltaT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.DeltaT"
+  - Name: DeltaTInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.DeltaTInv"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.EnableOut"
+  - Name: Gain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.Gain"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.In"
+  - Name: InFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.InFault"
+  - Name: InFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.InFaulted"
+  - Name: InstructFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.InstructFault"
+  - Name: Out
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.Out"
+  - Name: OversampleDT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.OversampleDT"
+  - Name: RTSMissed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.RTSMissed"
+  - Name: RTSTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.RTSTime"
+  - Name: RTSTimeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.RTSTimeInv"
+  - Name: RTSTimeStamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.RTSTimeStamp"
+  - Name: RTSTimeStampInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.RTSTimeStampInv"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.Status"
+  - Name: TimingMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.TimingMode"
+  - Name: TimingModeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.DEDT_02.TimingModeInv"
+- Name: disable_loop
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.disable_loop"
+- Name: En_Max_Capture
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.En_Max_Capture"
+- Name: index
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.index"
+- Name: IntTempLoop
+  Type: PID_ENHANCED
+  DataType: PID_ENHANCED
+  Children:
+  - Name: AllowCasRat
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AllowCasRat"
+  - Name: AtuneAbort
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneAbort"
+  - Name: AtuneAborted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneAborted"
+  - Name: AtuneAcquire
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneAcquire"
+  - Name: AtuneBusy
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneBusy"
+  - Name: AtuneDataInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneDataInv"
+  - Name: AtuneDone
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneDone"
+  - Name: AtuneOn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneOn"
+  - Name: AtuneReady
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneReady"
+  - Name: AtuneStart
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneStart"
+  - Name: AtuneUnacquire
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneUnacquire"
+  - Name: AtuneUseGains
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.AtuneUseGains"
+  - Name: Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.Auto"
+  - Name: CasRat
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CasRat"
+  - Name: ControlAction
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ControlAction"
+  - Name: CV
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CV"
+  - Name: CVEU
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVEU"
+  - Name: CVEUMax
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVEUMax"
+  - Name: CVEUMin
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVEUMin"
+  - Name: CVEUSpanInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVEUSpanInv"
+  - Name: CVFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVFault"
+  - Name: CVFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVFaulted"
+  - Name: CVHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVHAlarm"
+  - Name: CVHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVHLimit"
+  - Name: CVInitializing
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVInitializing"
+  - Name: CVInitReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVInitReq"
+  - Name: CVInitValue
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVInitValue"
+  - Name: CVLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVLAlarm"
+  - Name: CVLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVLimitsInv"
+  - Name: CVLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVLLimit"
+  - Name: CVManLimiting
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVManLimiting"
+  - Name: CVOper
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVOper"
+  - Name: CVOperInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVOperInv"
+  - Name: CVOverride
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVOverride"
+  - Name: CVOverrideInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVOverrideInv"
+  - Name: CVPrevious
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVPrevious"
+  - Name: CVPreviousInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVPreviousInv"
+  - Name: CVProg
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVProg"
+  - Name: CVProgInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVProgInv"
+  - Name: CVROCAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVROCAlarm"
+  - Name: CVROCLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVROCLimit"
+  - Name: CVROCLimitInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVROCLimitInv"
+  - Name: CVSetPrevious
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.CVSetPrevious"
+  - Name: DeltaT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DeltaT"
+  - Name: DeltaTInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DeltaTInv"
+  - Name: DependIndepend
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DependIndepend"
+  - Name: DevDeadband
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevDeadband"
+  - Name: DevDeadbandInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevDeadbandInv"
+  - Name: DevHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevHAlarm"
+  - Name: DevHHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevHHAlarm"
+  - Name: DevHHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevHHLimit"
+  - Name: DevHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevHLimit"
+  - Name: DevHLLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevHLLimitsInv"
+  - Name: DevLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevLAlarm"
+  - Name: DevLLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevLLAlarm"
+  - Name: DevLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevLLimit"
+  - Name: DevLLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DevLLLimit"
+  - Name: DGain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DGain"
+  - Name: DGainInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DGainInv"
+  - Name: DSmoothing
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.DSmoothing"
+  - Name: E
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.E"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.EnableOut"
+  - Name: EPercent
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.EPercent"
+  - Name: FF
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.FF"
+  - Name: FFInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.FFInv"
+  - Name: FFPrevious
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.FFPrevious"
+  - Name: FFPreviousInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.FFPreviousInv"
+  - Name: FFSetPrevious
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.FFSetPrevious"
+  - Name: Hand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.Hand"
+  - Name: HandFB
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.HandFB"
+  - Name: HandFBFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.HandFBFault"
+  - Name: HandFBFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.HandFBFaulted"
+  - Name: HandFBInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.HandFBInv"
+  - Name: IGain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.IGain"
+  - Name: IGainInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.IGainInv"
+  - Name: InitPrimary
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.InitPrimary"
+  - Name: InstructFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.InstructFault"
+  - Name: Manual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.Manual"
+  - Name: ManualAfterInit
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ManualAfterInit"
+  - Name: OperAutoReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.OperAutoReq"
+  - Name: OperCasRatReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.OperCasRatReq"
+  - Name: OperManualReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.OperManualReq"
+  - Name: OperOperReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.OperOperReq"
+  - Name: OperProgReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.OperProgReq"
+  - Name: Override
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.Override"
+  - Name: OversampleDT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.OversampleDT"
+  - Name: PGain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PGain"
+  - Name: PGainInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PGainInv"
+  - Name: ProgAutoReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ProgAutoReq"
+  - Name: ProgCasRatReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ProgCasRatReq"
+  - Name: ProgHandReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ProgHandReq"
+  - Name: ProgManualReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ProgManualReq"
+  - Name: ProgOper
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ProgOper"
+  - Name: ProgOperReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ProgOperReq"
+  - Name: ProgOverrideReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ProgOverrideReq"
+  - Name: ProgProgReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ProgProgReq"
+  - Name: ProgValueReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ProgValueReset"
+  - Name: PV
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PV"
+  - Name: PVDeadband
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVDeadband"
+  - Name: PVDeadbandInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVDeadbandInv"
+  - Name: PVEDerivative
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVEDerivative"
+  - Name: PVEProportional
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVEProportional"
+  - Name: PVEUMax
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVEUMax"
+  - Name: PVEUMin
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVEUMin"
+  - Name: PVFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVFault"
+  - Name: PVFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVFaulted"
+  - Name: PVHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVHAlarm"
+  - Name: PVHHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVHHAlarm"
+  - Name: PVHHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVHHLimit"
+  - Name: PVHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVHLimit"
+  - Name: PVLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVLAlarm"
+  - Name: PVLLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVLLAlarm"
+  - Name: PVLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVLLimit"
+  - Name: PVLLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVLLLimit"
+  - Name: PVPercent
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVPercent"
+  - Name: PVROCLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVROCLimitsInv"
+  - Name: PVROCNegAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVROCNegAlarm"
+  - Name: PVROCNegLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVROCNegLimit"
+  - Name: PVROCPeriod
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVROCPeriod"
+  - Name: PVROCPosAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVROCPosAlarm"
+  - Name: PVROCPosLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVROCPosLimit"
+  - Name: PVSpanInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVSpanInv"
+  - Name: PVTracking
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.PVTracking"
+  - Name: Ratio
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.Ratio"
+  - Name: RatioHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RatioHAlarm"
+  - Name: RatioHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RatioHLimit"
+  - Name: RatioLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RatioLAlarm"
+  - Name: RatioLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RatioLimitsInv"
+  - Name: RatioLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RatioLLimit"
+  - Name: RatioOper
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RatioOper"
+  - Name: RatioOperInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RatioOperInv"
+  - Name: RatioProg
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RatioProg"
+  - Name: RatioProgInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RatioProgInv"
+  - Name: RTSMissed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RTSMissed"
+  - Name: RTSTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RTSTime"
+  - Name: RTSTimeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RTSTimeInv"
+  - Name: RTSTimeStamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RTSTimeStamp"
+  - Name: RTSTimeStampInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.RTSTimeStampInv"
+  - Name: SP
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SP"
+  - Name: SPCascade
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPCascade"
+  - Name: SPCascadeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPCascadeInv"
+  - Name: SPHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPHAlarm"
+  - Name: SPHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPHLimit"
+  - Name: SPLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPLAlarm"
+  - Name: SPLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPLimitsInv"
+  - Name: SPLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPLLimit"
+  - Name: SPOper
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPOper"
+  - Name: SPOperInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPOperInv"
+  - Name: SPPercent
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPPercent"
+  - Name: SPProg
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPProg"
+  - Name: SPProgInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.SPProgInv"
+  - Name: Status1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.Status1"
+  - Name: Status2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.Status2"
+  - Name: TimingMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.TimingMode"
+  - Name: TimingModeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.TimingModeInv"
+  - Name: UseRatio
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.UseRatio"
+  - Name: WindupHIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.WindupHIn"
+  - Name: WindupHOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.WindupHOut"
+  - Name: WindupLIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.WindupLIn"
+  - Name: WindupLOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.WindupLOut"
+  - Name: ZCDeadband
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ZCDeadband"
+  - Name: ZCDeadbandInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ZCDeadbandInv"
+  - Name: ZCDeadbandOn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ZCDeadbandOn"
+  - Name: ZCOff
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.IntTempLoop.ZCOff"
+- Name: LDLG_01
+  Type: LEAD_LAG
+  DataType: LEAD_LAG
+  Children:
+  - Name: Bias
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.Bias"
+  - Name: DeltaT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.DeltaT"
+  - Name: DeltaTInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.DeltaTInv"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.EnableOut"
+  - Name: Gain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.Gain"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.In"
+  - Name: Initialize
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.Initialize"
+  - Name: InstructFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.InstructFault"
+  - Name: Lag
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.Lag"
+  - Name: LagInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.LagInv"
+  - Name: Lead
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.Lead"
+  - Name: LeadInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.LeadInv"
+  - Name: Out
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.Out"
+  - Name: OversampleDT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.OversampleDT"
+  - Name: RTSMissed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.RTSMissed"
+  - Name: RTSTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.RTSTime"
+  - Name: RTSTimeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.RTSTimeInv"
+  - Name: RTSTimeStamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.RTSTimeStamp"
+  - Name: RTSTimeStampInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.RTSTimeStampInv"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.Status"
+  - Name: TimingMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.TimingMode"
+  - Name: TimingModeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.LDLG_01.TimingModeInv"
+- Name: Loop_Simulation
+  Type: LoopSimulation
+  DataType: LoopSimulation
+  Children:
+  - Name: DeadTime
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.Loop_Simulation.DeadTime"
+  - Name: Gain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.Loop_Simulation.Gain"
+  - Name: Lag
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.Loop_Simulation.Lag"
+  - Name: Lead
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.Loop_Simulation.Lead"
+  - Name: Manual_Mode_Req
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.Loop_Simulation.Manual_Mode_Req"
+  - Name: Manual_SP_to_100
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.Loop_Simulation.Manual_SP_to_100"
+  - Name: Manual_SP_to_Zero
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.Loop_Simulation.Manual_SP_to_Zero"
+  - Name: PID_Loop_Gains_to_Proper_Values
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.Loop_Simulation.PID_Loop_Gains_to_Proper_Values"
+  - Name: PID_Loop_Gains_to_Untuned_Values
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.Loop_Simulation.PID_Loop_Gains_to_Untuned_Values"
+- Name: PID_Gains_To_untuned_values
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.PID_Gains_To_untuned_values"
+- Name: Manual_Mode_Req
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.Manual_Mode_Req"
+- Name: Manual_SP_to_100
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.Manual_SP_to_100"
+- Name: Manual_SP_to_Zero
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.Manual_SP_to_Zero"
+- Name: MAXC_01
+  Type: MAXIMUM_CAPTURE
+  DataType: MAXIMUM_CAPTURE
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MAXC_01.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MAXC_01.EnableOut"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MAXC_01.In"
+  - Name: Out
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MAXC_01.Out"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MAXC_01.Reset"
+  - Name: ResetValue
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MAXC_01.ResetValue"
+- Name: MINC_01
+  Type: MINIMUM_CAPTURE
+  DataType: MINIMUM_CAPTURE
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_01.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_01.EnableOut"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_01.In"
+  - Name: Out
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_01.Out"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_01.Reset"
+  - Name: ResetValue
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_01.ResetValue"
+- Name: MINC_02
+  Type: MINIMUM_CAPTURE
+  DataType: MINIMUM_CAPTURE
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_02.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_02.EnableOut"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_02.In"
+  - Name: Out
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_02.Out"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_02.Reset"
+  - Name: ResetValue
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Internal_Temperature_Simulation_Loop.MINC_02.ResetValue"
+- Name: PID_Gains_To_Proper_values
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Internal_Temperature_Simulation_Loop.PID_Gains_To_Proper_values"
